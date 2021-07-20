@@ -1,11 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-class Greeter extends Component {
-  render() {
-    return (
-      <h2>Greetings! {this.props.name}!</h2>
-    )
-  }
+function Greeter(props) {
+  return (
+    <h2>Greetings! {props.name}!</h2>
+  )
 }
 
 export default Greeter;

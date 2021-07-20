@@ -1,15 +1,13 @@
-import React, {Component} from "react";
+import React from "react";
 import Greeter from "./components/Greeter";
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <h1>Welcome to Greeter App!</h1>
-        <Greeter name="Sweetie" />
-      </div>
-    );
-  }
+function App () {
+  return (
+    <div>
+      <h1>Welcome to Greeter App!</h1>
+      <Greeter name="Sweetie" />
+    </div>
+  );
 }
 
 export default App;
