@@ -1,7 +1,7 @@
 import React from "react";
 import Greeter from "./components/Greeter";
 
-function App () {
+const App = () => {
   return (
     <div>
       <h1>Welcome to Greeter App!</h1>
